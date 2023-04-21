@@ -1,0 +1,9 @@
+//This script will process all bones parrallel on the gpu
+
+#pragma kernel CSMain
+
+[numthreads(8,8,1)]
+void CSMain (uint3 id : SV_DispatchThreadID)
+{
+    // TODO: insert actual code here!
+}
